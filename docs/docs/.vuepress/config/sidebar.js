@@ -1,3 +1,3 @@
 module.exports = {
-  "/comments/": require("../../comments/sidebar_contents"),
+  "/docs/": require("../../docs/sidebar_contents"),
 };

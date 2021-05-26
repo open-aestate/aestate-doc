@@ -1,13 +1,13 @@
 module.exports = {
   plugins: ['@vuepress/last-updated'],
-  // theme: "antdocs",
-  theme: "reco",
-  title: "CACodeFramework",
-  description: "CACodeFramework系列，适用于 Python 语言所有web架构 的 ORM( Object-Relational-Mapping ) 框架",
+  theme: "antdocs",
+  // theme: "reco",
+  title: "Arstate Framework",
+  description: "CACodeFramework系列，适用于 Python 语言所有web架构 的 ORM 框架",
   base: "/",
   backToTop: true,
   head: [
-    ["link", { rel: "icon", href: "/assets/logo.png" }]
+    ["link", { rel: "icon", href: "https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png" }]
   ],
   markdown: {
     lineNumbers: false,
@@ -17,7 +17,7 @@ module.exports = {
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
     lastUpdated: "Last Updated",
-    repo: "https://github.com/cctvadmin/CACodeFramework-python-ORM",
-    logo: '/assets/logo.png',
+    repo: "https://gitee.com/cacode_cctvadmin/aestate",
+    logo: 'https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png',
   },
 };

@@ -7,6 +7,6 @@ module.exports = [
   // Nav 2
   {
     text: "指北",
-    link: "/comments/"
+    link: "/docs/"
   },
 ];

@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: /assets/logo.png
+heroImage: https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png
 actionBtn:
-  text: Get Started
-  link: /comments/
+  text: 文档教程
+  link: /docs/
   type: primary
   ghost: false
   size: large
 preactionBtn:
-  text: Get Source
-  link: https://github.com/cctvadmin/CACodeFramework-python-ORM
+  text: 获取源代码
+  link: https://gitee.com/cacode_cctvadmin/aestate
   type: primary
   ghost: true
   size: large
@@ -29,7 +29,7 @@ footer: Copyright ©2019 CACode <a target="_blank" href="https://beian.miit.gov.
   <a href="https://doc.cacode.ren" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://github.com/cctvadmin/CACodeFramework-python-ORM/blob/main/LICENSE">
-    <img alt="License: GPL-3.0" src="https://img.shields.io/badge/License-GPL--3.0-yellow" target="_blank" />
+  <a href="https://gitee.com/cacode_cctvadmin/aestate/blob/main/LICENSE">
+    <img alt="License: GPL-3.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow" target="_blank" />
   </a>
 </p>

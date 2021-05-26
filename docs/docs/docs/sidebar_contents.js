@@ -1,5 +1,5 @@
 module.exports = [
-	"/comments/",
+	"/docs/",
 	"article-1",
 	"article-2"
 ];
