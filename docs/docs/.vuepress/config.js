@@ -1,16 +1,17 @@
 module.exports = {
-  plugins: ['@vuepress/last-updated'],
-  theme: "antdocs",
+  plugins: ['@vuepress/last-updated', 'vuepress-plugin-helper-live2d',],
+  theme: "vuepress-theme-yilia-plus",
+  // theme: "antdocs",
   // theme: "reco",
-  title: "Arstate Framework",
-  description: "CACodeFramework系列，适用于 Python 语言所有web架构 的 ORM 框架",
+  title: "Aestate Framework",
+  description: "Aestate —— 多样化数据库查询",
   base: "/",
   backToTop: true,
   head: [
     ["link", { rel: "icon", href: "https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png" }]
   ],
   markdown: {
-    lineNumbers: false,
+    lineNumbers: true,
   },
   themeConfig: {
     smoothScroll: true,
