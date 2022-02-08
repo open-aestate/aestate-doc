@@ -1,14 +1,17 @@
 module.exports = {
-  plugins: ['@vuepress/last-updated', 'vuepress-plugin-helper-live2d',],
+  plugins: ['@vuepress/last-updated', 'vuepress-plugin-helper-live2d', ],
   theme: "vuepress-theme-yilia-plus",
   // theme: "antdocs",
   // theme: "reco",
   title: "Aestate Framework",
   description: "Aestate —— 多样化数据库查询",
-  base: "/",
+  base: "/aestate-doc/",
   backToTop: true,
   head: [
-    ["link", { rel: "icon", href: "https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png" }]
+    ["link", {
+      rel: "icon",
+      href: "https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png"
+    }]
   ],
   markdown: {
     lineNumbers: true,
