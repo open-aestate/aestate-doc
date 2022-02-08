@@ -1,37 +1,63 @@
 ---
-home: true
-heroImage: https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_frame.png
-actionBtn:
-  text: 文档教程
-  link: /docs/
-  type: primary
-  ghost: false
-  size: large
-preactionBtn:
-  text: 获取源代码
-  link: https://gitee.com/cacode_cctvadmin/aestate
-  type: primary
-  ghost: true
-  size: large
-features:
-  - title: 适用场景
-    details: 经过测试,目前稳定运行于Django、Flask、FastApi、web2py。支持非任何架构的原生python,可通过任何形式使用。不局限于已创建的对象,可动态加载数据库和数据表
-  - title: 优点
-    details: 集结了大部分语言常用的数据库执行方式,最经典的mybatis则是完美在aestate复刻,spring家族也在aestate得到体现
-  - title: 内置
-    details: 内置json解析器和数据库连接池,带有缓存机制,能够在极大程度减少对数据库的压力。
-footer: Copyright ©2019 CACode <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备：20009502</a>
+title: 欢迎
 ---
 
 <p align="center">
+<img width="10%" src="https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_framework_tr.png"/>
+</p>
+<h1 align="center">Aestate —— 多样化数据库查询</h1>
+<p align="center">
   <img src="https://img.shields.io/badge/python-%3E%3D%203.6-blue.svg" />
-  <a href="https://doc.cacode.ren" target="_blank">
+  <a href="http://doc.cacode.ren">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://gitee.com/cacode_cctvadmin/aestate/blob/main/LICENSE">
-    <img alt="License: GPL-3.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow" target="_blank" />
+  <a href="https://gitee.com/aecode/summer-python/blob/main/LICENSE">
+    <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow.svg" target="_blank" />
   </a>
 </p>
-<p style="text-align:center;">Copyright ©2019 CACode
-                    <a rel="nofollow" target="_blank" href="http://beian.miit.gov.cn/">粤ICP备20009502</a>
-                </p>
+
+# 介绍
+
+> 当前仅 MySql8.0 以上测试通过
+
+`Aestate Framework` 是一款基于`Python`语言开发的`ORM`框架,你可以使用多种方式去实现基于对象方式的查询.
+
+比如使用类似`django`的模式去使用：modelClass.orm.filter(\*args, \*\*kwargs)
+
+或者 sqlalchemy 的方式：find().where(\**kwargs).group_by(*args)
+
+或者像`java`的`hibernate`一样：
+
+```python
+@SelectAbst()
+def find_all_F_where_id_in_and_name_like_order_by_id(self, **kwargs) -> list: ...
+
+
+@Select("SELECT * FROM demo WHERE id=${id} AND name=${name}")
+def find_all_where_id(self, id, name): ...
+```
+
+或者像`java`的`mybatis`使用 xml
+
+```xml
+<?xml version="1.0"?>
+<aestate
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="aestate  https://gitee.com/aecode/aestate-xml/blob/main/v1/tags.xsd"
+        xmlns="aestate">
+    <namespace id="demo_table" from="example.tables.demoModels.DemoTable"/>
+    <import file="./db.xml" id="database" target="demoDatabase"/>
+    <template id="templateField">
+        id,name,password,create_time,update_time
+        <description>测试模板</description>
+    </template>
+
+    <item id="findAllById">
+        <select>
+            <include from="templateField"/>
+        </select>
+    </item>
+
+    <description>测试描述</description>
+</aestate>
+```

@@ -4,7 +4,7 @@ title: 进阶ORM操作
 
 ## 查询操作
 
-[代码位置](https://gitee.com/cacode_cctvadmin/aestate/blob/main/example/operas/mysql/ormOpera/find.py)
+[代码位置](https://gitee.com/aecode/aestate/blob/main/example/operas/mysql/ormOpera/find.py)
 
 ```python
 from example.tables.demoModels import Demo
@@ -55,7 +55,7 @@ print('r9', type(r9), r9)
 
 ## 使用装示器
 
-[代码位置](https://gitee.com/cacode_cctvadmin/aestate/blob/main/example/operas/mysql/ormOpera/anno.py)
+[代码位置](https://gitee.com/aecode/aestate/blob/main/example/operas/mysql/ormOpera/anno.py)
 
 ```python
 from example.tables.demoModels import Demo, ReadXmlClass

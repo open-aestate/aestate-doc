@@ -18,7 +18,7 @@ module.exports = {
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
     lastUpdated: "Last Updated",
-    repo: "https://gitee.com/cacode_cctvadmin/aestate",
+    repo: "https://gitee.com/aecode/aestate",
     logo: 'https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_transparent.png',
   },
 };

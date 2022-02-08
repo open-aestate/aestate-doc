@@ -9,8 +9,4 @@ module.exports = [
     text: "文档教程",
     link: "/docs/"
   },// Nav 3
-  {
-    text: "仓库地址",
-    link: "https://gitee.com/cacode_cctvadmin/aestate"
-  },
 ];

@@ -11,7 +11,7 @@ title: 欢迎
   <a href="http://doc.cacode.ren">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://gitee.com/cacode_cctvadmin/summer-python/blob/main/LICENSE">
+  <a href="https://gitee.com/aecode/summer-python/blob/main/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow.svg" target="_blank" />
   </a>
 </p>
@@ -43,7 +43,7 @@ def find_all_where_id(self, id, name): ...
 <?xml version="1.0"?>
 <aestate
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="aestate  https://gitee.com/cacode_cctvadmin/aestate-xml/blob/main/v1/tags.xsd"
+        xsi:schemaLocation="aestate  https://gitee.com/aecode/aestate-xml/blob/main/v1/tags.xsd"
         xmlns="aestate">
     <namespace id="demo_table" from="example.tables.demoModels.DemoTable"/>
     <import file="./db.xml" id="database" target="demoDatabase"/>
