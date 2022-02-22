@@ -1,11 +1,11 @@
 module.exports = {
-  plugins: ['@vuepress/last-updated', 'vuepress-plugin-helper-live2d', ],
+  plugins: ['@vuepress/last-updated', 'vuepress-plugin-helper-live2d',],
   theme: "vuepress-theme-yilia-plus",
   // theme: "antdocs",
   // theme: "reco",
   title: "Aestate Framework",
   description: "Aestate —— 多样化数据库查询",
-  base: "https://aecode.gitee.io/aestate-doc/",
+  base: "/aestate-doc",
   backToTop: true,
   head: [
     ["link", {
