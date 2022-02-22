@@ -5,7 +5,7 @@ module.exports = {
   // theme: "reco",
   title: "Aestate Framework",
   description: "Aestate —— 多样化数据库查询",
-  base: "/aestate-doc",
+  base: "/",
   backToTop: true,
   head: [
     ["link", {
