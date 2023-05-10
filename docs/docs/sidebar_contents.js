@@ -2,24 +2,24 @@ module.exports = [
   {
     title: "基本设置",
     children: [
-      ["/docs/baseConfig/1", "1.安装和先决条件"],
-      ["/docs/baseConfig/2", "2.获得demo数据库"],
-      ["/docs/baseConfig/3", "3.创建数据库配置"],
-      ["/docs/baseConfig/4", "4.创建模板表"],
+      ["/docs/基本设置/安装", "安装"],
+      ["/docs/基本设置/获得demo数据库", "获得demo数据库"],
+      ["/docs/基本设置/创建数据库配置", "创建数据库配置"],
+      ["/docs/基本设置/创建模板表", "创建模板表"],
     ],
   },
   {
     title: "基本使用",
     children: [
-      ["/docs/baseUsing/1", "创建一个表对象"],
-      ["/docs/baseUsing/2", "查询"],
-      ["/docs/baseUsing/3", "插入"],
-      ["/docs/baseUsing/4", "删除"],
-      ["/docs/baseUsing/5", "更新"],
+      ["/docs/基本使用/创建一个表对象", "创建一个表对象"],
+      ["/docs/基本使用/基本查询", "基本查询"],
+      ["/docs/基本使用/新增", "新增"],
+      ["/docs/基本使用/删除", "删除"],
+      ["/docs/基本使用/更新", "更新"],
     ],
   },
   {
-    title: "进阶orm",
-    children: [["/docs/orm/1", "查询"]],
+    title: "ORM查询",
+    children: [["/docs/ORM查询/查询", "查询"]],
   },
 ];

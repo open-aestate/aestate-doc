@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_frame.png
+heroImage: https://summer-publiced.oss-cn-hangzhou.aliyuncs.com/logos/logo_framework_tr.png
 actionBtn:
   text: 文档教程
   link: /docs/
@@ -32,6 +32,6 @@ footer: Copyright ©2019 CACode <a target="_blank" href="https://beian.miit.gov.
     <img alt="License: GPL-3.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow" target="_blank" />
   </a>
 </p>
-<p style="text-align:center;">Copyright ©2019 CACode
+<p style="text-align:center;">Copyright ©2023 Aestate
                     <a rel="nofollow" target="_blank" href="http://beian.miit.gov.cn/">粤ICP备20009502</a>
                 </p>
