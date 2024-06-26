@@ -6,7 +6,7 @@ module.exports = {
   theme: "vuepress-theme-vdoing",
   title: "Aestate Framework",
   description: "Aestate —— 多样化数据库查询",
-  base: "/",
+  base: "https://gitee.com/aecode/aestate-doc/tree/main/docs/.vuepress/dist",
   backToTop: true,
   head: [
     [
